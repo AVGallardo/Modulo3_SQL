@@ -1,5 +1,5 @@
 CREATE TABLE "empresas" (
-  "rut" integer PRIMARY KEY,
+  "rut" varchar PRIMARY KEY,
   "nombre" varchar,
   "direccion" varchar,
   "telefono" varchar,
@@ -20,8 +20,7 @@ CREATE TABLE "vehiculos" (
   "id_vehiculo" varchar PRIMARY KEY,
   "patente" varchar,
   "marca" varchar,
-  "modelo" varchar,
-  "tipo" varchar,
+  "modelo" varchar, 
   "color" varchar,
   "precio" varchar,
   "frecuencia_mantencion" varchar
